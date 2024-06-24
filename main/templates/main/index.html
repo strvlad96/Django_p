@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <div class = "features">
+        <h1>Главная страница</h1>
+        <p>Главная страница</p>
+        <button class = "btn btn-warning">На страницу о нас</button>
+        <ul>
+        {% for player in players %}
+            <li>{{ player }}</li>
+        {% endfor %}
+    </ul>
+
+    </div>
+
+{% endblock %}
