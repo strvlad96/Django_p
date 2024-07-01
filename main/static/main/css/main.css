@@ -1,0 +1,74 @@
+body {
+    background: purple;
+}
+
+aside {
+    float: left;
+    background: yellow;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: purple;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul {
+    list-style: none;
+
+}
+aside a {
+    text-decoration: none;
+}
+
+aside ul li {
+    color: purple;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: blue;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: yellow;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {
+    font-size: 50px;
+}
+
+main .features p {
+    max-width: 400px;
+    margin: 20px auto
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
